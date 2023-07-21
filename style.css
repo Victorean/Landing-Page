@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Poppins' sans-serif;
+
+}
+.hero {
+    background-image: url(images/louis-hansel-LpIGOZF_w_E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
+}
+.headertop {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between; 
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    padding: 16px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+a:hover {
+    color: #961010;
+    
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+    padding: 16px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    line-height: 60px;
+    margin-bottom: -5px;
+}
+p{
+    font-weight: 500;
+    color: #f9faf8;
+    margin-bottom: 25px;
+    
+}
+button {
+    background: #771717;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #771717;
+    cursor: pointer;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.text {
+    width: 500px;
+    height: 270px;
+   
+}
+.pic1{
+    width: 500px;
+    height: 270px;
+    text-align: center;
+    border-radius: 20px;
+}
+.headerbottom {
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+  padding: 100px; 
+}
+/* hero ends */
+
+/* info starts */
+.info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: 70px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+img {
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+}
+.par {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* info ends */
+
+/* quote starts */
+.content {
+    background: #e5e7eb;
+    padding: 180px;
+    text-align: center;
+    background-image: url(images/mae-mu-FgHvCcj3Jus-unsplash.jpg);
+    background-position: left center;
+}
+q {
+font-size: 36px;
+font-weight: 300;
+color: #1f2937;
+font-style: italic;
+}
+
+/* quote ends */
+
+/* cta starts */
+.txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   border: 1px solid #1f2937;
+   margin: 100px auto;
+   border-radius: 10px;
+   max-width: 1000px;
+   padding: 15px;
+  text-transform: capitalize;
+  background: #1a2029;
+  
+}
+h3{
+    margin-bottom: -8px;
+    color: #f9faf8;
+}
+.p1{
+    color: #f9faf8;
+    width: 600px;
+    line-height: 25px;
+}
+/* cta ends */
+
+footer{
+    text-align: center;
+    background: #1a2029;
+    padding: 25px;
+    color: #f9faf8;
+}
